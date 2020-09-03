@@ -14,6 +14,7 @@ namespace Employee
             int t = 5;
             t++;
             Console.WriteLine(t);
+            Console.WriteLine("test");
         }
     }
 }

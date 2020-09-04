@@ -11,10 +11,19 @@ namespace Employee
         static void Main(string[] args)
         {
             //test
-            int t = 5;
-            t++;
-            Console.WriteLine(t);
-            Console.WriteLine("test");
+            Employee emp = new Employee("Juan Alban", 1 , 2.5f);
+            emp.DisplayStats();
+            emp.Name = "Mary";
+            emp.Pay = 200;
+            emp.GiveBonus(400);
+            emp.DisplayStats();
+
+            Console.ReadLine();
+
+             
+
+
+
         }
     }
 }
